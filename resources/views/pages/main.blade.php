@@ -9,10 +9,15 @@
 @endsection
 
 @section ('content')
+   
 
 
 <div class="app-wrapper">
     <button class="generate-dog">Generate Dog</button>
     <div id="image-container"></div>
 </div>
+
+<select id="breedSelect">
+    <option value="">Select Breed</option>
+</select>
 @endsection
